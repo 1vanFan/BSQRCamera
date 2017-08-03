@@ -54,8 +54,8 @@
     model.memo = @"总经理";
     model.orginization = @"上海优驰";
     
-    [self analyseQRCodeMessage: [model generateMecardString]];
-    return;
+//    [self analyseQRCodeMessage: [model generateMecardString]];
+//    return;
     
     BSQRCodeGenerator *generagor = [[BSQRCodeGenerator alloc] init];
     _imageView.image = [generagor generateQRCodeMessage:[model generateMecardString] size:_imageView.frame.size inputCorrectionLevel:InputCorrectionLevel_M];
