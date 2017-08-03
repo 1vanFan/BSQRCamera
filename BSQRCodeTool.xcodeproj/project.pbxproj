@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C53A77F1E31E833003740C9 /* BSQRCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSQRCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C53A77F1E31E833003740C9 /* BSQRCodeTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSQRCodeTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C53A7831E31E833003740C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C53A7851E31E833003740C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C53A7861E31E833003740C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		2C53A7801E31E833003740C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C53A77F1E31E833003740C9 /* BSQRCodeDemo.app */,
+				2C53A77F1E31E833003740C9 /* BSQRCodeTool.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C53A77E1E31E833003740C9 /* BSQRCodeDemo */ = {
+		2C53A77E1E31E833003740C9 /* BSQRCodeTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C53A7961E31E833003740C9 /* Build configuration list for PBXNativeTarget "BSQRCodeDemo" */;
+			buildConfigurationList = 2C53A7961E31E833003740C9 /* Build configuration list for PBXNativeTarget "BSQRCodeTool" */;
 			buildPhases = (
 				2C53A77B1E31E833003740C9 /* Sources */,
 				2C53A77C1E31E833003740C9 /* Frameworks */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = BSQRCodeDemo;
+			name = BSQRCodeTool;
 			productName = BSQRCodeDemo;
-			productReference = 2C53A77F1E31E833003740C9 /* BSQRCodeDemo.app */;
+			productReference = 2C53A77F1E31E833003740C9 /* BSQRCodeTool.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,11 +138,12 @@
 				TargetAttributes = {
 					2C53A77E1E31E833003740C9 = {
 						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = B68HH445ZF;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 2C53A77A1E31E833003740C9 /* Build configuration list for PBXProject "BSQRCodeDemo" */;
+			buildConfigurationList = 2C53A77A1E31E833003740C9 /* Build configuration list for PBXProject "BSQRCodeTool" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -155,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C53A77E1E31E833003740C9 /* BSQRCodeDemo */,
+				2C53A77E1E31E833003740C9 /* BSQRCodeTool */,
 			);
 		};
 /* End PBXProject section */
@@ -303,12 +304,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = B68HH445ZF;
 				INFOPLIST_FILE = BSQRCodeDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1vanFan.BSQRCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -317,19 +319,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = B68HH445ZF;
 				INFOPLIST_FILE = BSQRCodeDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1vanFan.BSQRCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C53A77A1E31E833003740C9 /* Build configuration list for PBXProject "BSQRCodeDemo" */ = {
+		2C53A77A1E31E833003740C9 /* Build configuration list for PBXProject "BSQRCodeTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C53A7941E31E833003740C9 /* Debug */,
@@ -338,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C53A7961E31E833003740C9 /* Build configuration list for PBXNativeTarget "BSQRCodeDemo" */ = {
+		2C53A7961E31E833003740C9 /* Build configuration list for PBXNativeTarget "BSQRCodeTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C53A7971E31E833003740C9 /* Debug */,
